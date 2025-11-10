@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,13 +20,7 @@
       rel="stylesheet"
     />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="page-header">
@@ -28,22 +28,29 @@
         <a class="logo header-logo" href="./index.html"
           >Web<span class="logo-part">Studio</span></a
         >
-        <div class="nav-list">
-          <a class="nav-link" href="./index.html">Studio</a>
-          <a class="nav-link" href="">Portfolio</a>
-          <a class="nav-link" href="">Contacts</a>
-        </div>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Studio</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
+        </ul>
       </nav>
 
       <address class="contacts">
-        <div class="contacts-list">
-          <a class="contacts-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <a class="contacts-link" href="tel:+110001111111"
-            >+11 (000) 111-11-11</a
-          >
-        </div>
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a class="contacts-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+
+          <li class="contacts-item">
+            <a class="contacts-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
       </address>
     </header>
 
@@ -54,7 +61,7 @@
       </section>
 
       <section class="section">
-        <h2>Our benefits</h2>
+        <h1>Our benefits</h1>
         <ul class="benefits-list">
           <li class="benefits-item">
             <h3 class="benefits-subtitle card-subtitle">Strategy</h3>
@@ -91,7 +98,7 @@
       </section>
 
       <section class="section section-team">
-        <h2 class="section-title">Our Team</h2>
+        <h1 class="section-title">Our Team</h1>
         <ul class="team-list">
           <li class="team-item">
             <img
@@ -140,7 +147,7 @@
       </section>
 
       <section class="section section-portfolio">
-        <h2 class="section-title">Our Portfolio</h2>
+        <h1 class="section-title">Our Portfolio</h1>
 
         <ul class="portfolio-list">
           <li class="portfolio-item">
