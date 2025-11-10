@@ -5,13 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="./css/styles.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,42 +14,43 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header class="page-header">
       <nav class="header-nav">
-        <a class="logo header-logo" href="./index.html">WebStudio</a>
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">Studio</a>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
-        </ul>
+        <a class="logo header-logo" href="./index.html"
+          >Web<span class="logo-part">Studio</span></a
+        >
+        <div class="nav-list">
+          <a class="nav-link" href="./index.html">Studio</a>
+          <a class="nav-link" href="">Portfolio</a>
+          <a class="nav-link" href="">Contacts</a>
+        </div>
       </nav>
 
       <address class="contacts">
-        <ul class="contacts-list">
-          <li class="contacts-item">
-            <a class="contacts-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-
-          <li class="contacts-item">
-            <a class="contacts-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
+        <div class="contacts-list">
+          <a class="contacts-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <a class="contacts-link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </div>
       </address>
     </header>
 
     <main>
       <section class="section-hero">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button class="hero-btn">Order Service</button>
+        <button class="hero-btn" type="button">Order Service</button>
       </section>
 
       <section class="section">
@@ -220,7 +215,9 @@
     </main>
 
     <footer class="page-footer">
-      <a class="logo footer-logo" href="./index.html">WebStudio</a>
+      <a class="logo footer-logo" href="./index.html"
+        >Web<span class="logo-part">Studio</span></a
+      >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
