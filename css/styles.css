@@ -105,6 +105,7 @@ button {
 .komanda-list {
   background-color: #fff;
 }
+/* ПОМИЛКА 4: Не задано білий фон для окремих лішок команди (.team-item) */
 .team-subtitle,
 .team-text {
   text-align: center;
