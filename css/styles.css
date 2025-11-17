@@ -4,27 +4,20 @@ body {
   color: #434455;
   background-color: #fff;
 }
-
 /*#region Reset*/
-
 ul,
 ol {
   list-style-type: none;
 }
-
 a {
   text-decoration: none;
   color: currentColor;
 }
-
 button {
   cursor: pointer;
 }
-
 /*#endregion Reset*/
-
 /*#region Common*/
-
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -34,7 +27,6 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -43,7 +35,6 @@ button {
   text-transform: capitalize;
   color: #2e2f42;
 }
-
 .card-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -51,59 +42,47 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
 .card-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
 /*#endregion Common*/
-
 /*#region Header*/
-
 .header-logo .logo-part {
   color: #2e2f42;
 }
-
 .nav-link {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
+/* ПОМИЛКА 1: Змінено font-style з normal на italic для контактів */
 .contacts {
-  font-style: normal;
+  font-style: italic;
 }
-
 .contacts-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
 }
-
 /*#endregion Header*/
-
 /*#region Hero*/
-
 .section-hero {
   background-color: #2e2f42;
 }
-
+/* ПОМИЛКА 2: Видалено text-align: center для заголовка h1 */
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
 }
-
 .hero-btn {
   font-family: inherit;
   font-weight: 500;
@@ -113,33 +92,25 @@ button {
   color: #fff;
   background-color: #4d5ae5;
 }
-
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
 }
-
 /*#endregion Hero*/
-
 /*#region Team*/
-
 .section-team {
   background-color: #f4f4fd;
 }
-
-.team-item {
+/* ПОМИЛКА 3: Додано білий фон для списку команди замість окремих лішок */
+.komanda-list {
   background-color: #fff;
 }
-
 .team-subtitle,
 .team-text {
   text-align: center;
 }
-
 /*#endregion Team*/
-
 /*#region Footer*/
-
 .page-footer {
   background-color: #2e2f42;
 }
@@ -151,5 +122,4 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-
 /*#endregion Footer*/
