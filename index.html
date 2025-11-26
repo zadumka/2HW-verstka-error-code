@@ -3,30 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <title>Web Studio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <header class="page-header">
       <nav class="header-nav">
-        <a class="logo header-logo" href="./index.html"
-          >Web<span class="logo-part">Studio</span></a
+        <a class="logo-header" href="./index.html"
+          ><span class="accent-header">Web</span>Studio</a
         >
         <ul class="nav-list">
           <li class="nav-item">
@@ -36,15 +31,13 @@
           <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
         </ul>
       </nav>
-
-      <address class="contacts">
-        <ul class="contacts-list">
+      <address class="header-contacts">
+        <ul class="list-contacts">
           <li class="contacts-item">
             <a class="contacts-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-
           <li class="contacts-item">
             <a class="contacts-link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
@@ -54,189 +47,164 @@
       </address>
     </header>
 
-    <main>
-      <section class="section-hero">
+    <main class="page-main">
+      <!--  -->
+      <section class="section-hero hero-bg-image">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button class="hero-btn" type="button">Order Service</button>
+        <button class="order-button" type="button">Order Service</button>
       </section>
-
-      <section class="section">
-        <h2>Our benefits</h2>
-        <ul class="perevagy-list">
-          <li class="benefity-item">
-            <h3 class="benefits-subtitle card-subtitle">Strategy</h3>
-            <p class="benefits-text card-text">
+      <!--  -->
+      <section class="features-section">
+        <h2 class="section-title">Info about</h2>
+        <ul class="features-list">
+          <li class="features-item">
+            <h3 class="features-title">Strategy</h3>
+            <p class="features-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-
-          <li class="benefity-item">
-            <h3 class="benefits-subtitle card-subtitle">Punctuality</h3>
-            <p class="benefits-text card-text">
+          <li class="features-item">
+            <h3 class="features-title">Punctuality</h3>
+            <p class="features-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-
-          <li class="benefity-item">
-            <h3 class="benefits-subtitle card-subtitle">Diligence</h3>
-            <p class="benefits-text card-text">
+          <li class="features-item">
+            <h3 class="features-title">Diligence</h3>
+            <p class="features-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
-
-          <li class="benefity-item">
-            <h3 class="benefits-subtitle card-subtitle">Technologies</h3>
-            <p class="benefits-text card-text">
+          <li class="features-item">
+            <h3 class="features-title">Technologies</h3>
+            <p class="features-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-
-      <section class="section section-team">
-        <h2 class="section-title">Our Team</h2>
-        <ul class="komanda-list">
+      <!--  -->
+      <section class="section-team">
+        <h2 class="team-title">Our Team</h2>
+        <ul class="team-list">
           <li class="team-item">
-            <!-- ПОМИЛКА 6: Додано height до зображення -->
             <img
-              src="./images/team-1.jpg"
+              src="./images/Mark.jpg"
               alt="Mark Guerrero"
               width="264"
               height="260"
             />
-            <h3 class="team-subtitle card-subtitle">Mark Guerrero</h3>
-            <p class="team-text card-text">Product Designer</p>
+            <h3 class="team-specialist">Mark Guerrero</h3>
+            <p class="team-job-title">Product Designer</p>
           </li>
-
           <li class="team-item">
-            <!-- ПОМИЛКА 6: Додано height до зображення -->
             <img
-              src="./images/team-2.jpg"
+              src="./images/Tom.jpg"
               alt="Tom Ford"
               width="264"
               height="260"
             />
-            <h3 class="team-subtitle card-subtitle">Tom Ford</h3>
-            <p class="team-text card-text">Frontend Developer</p>
+            <h3 class="team-specialist">Tom Ford</h3>
+            <p class="team-job-title">Frontend Developer</p>
           </li>
-
           <li class="team-item">
-            <!-- ПОМИЛКА 6: Додано height до зображення -->
             <img
-              src="./images/team-3.jpg"
+              src="./images/Camila.jpg"
               alt="Camila Garcia"
               width="264"
               height="260"
             />
-            <h3 class="team-subtitle card-subtitle">Camila Garcia</h3>
-            <p class="team-text card-text">Marketing</p>
+            <h3 class="team-specialist">Camila Garcia</h3>
+            <p class="team-job-title">Marketing</p>
           </li>
-
           <li class="team-item">
-            <!-- ПОМИЛКА 6: Додано height до зображення -->
             <img
-              src="./images/team-4.jpg"
+              src="./images/Daniel.jpg"
               alt="Daniel Wilson"
               width="264"
               height="260"
             />
-            <h3 class="team-subtitle card-subtitle">Daniel Wilson</h3>
-            <p class="team-text card-text">UI Designer</p>
+            <h3 class="team-specialist">Daniel Wilson</h3>
+            <p class="team-job-title">UI Designer</p>
           </li>
         </ul>
       </section>
-
-      <section class="section section-portfolio">
-        <h2 class="section-title">Our Portfolio</h2>
-
-        <!-- ПОМИЛКА 5: Portfolio розділено на два списки замість одного -->
+      <!--  -->
+      <section class="portfolio">
+        <h2 class="portfolio-title">Our Portfolio</h2>
         <ul class="portfolio-list">
           <li class="portfolio-item">
-            <!-- ПОМИЛКА 6: Додано height до зображення -->
             <img
-              src="./images/portfolio-1.jpg"
+              src="./images/BankApp.jpg"
               alt="Banking App"
               width="360"
               height="300"
             />
-            <h3 class="portfolio-subtitle card-subtitle">Banking App</h3>
-            <p class="portfolio-text card-text">App</p>
+            <h3 class="portfolio-item-title">Banking App</h3>
+            <p>App</p>
           </li>
-
           <li class="portfolio-item">
-            <!-- ПОМИЛКА 6: Додано height до зображення -->
             <img
-              src="./images/portfolio-2.jpg"
+              src="./images/CashlessPayment.jpg"
               alt="Cashless Payment"
               width="360"
               height="300"
             />
-            <h3 class="portfolio-subtitle card-subtitle">Cashless Payment</h3>
-            <p class="portfolio-text card-text">Marketing</p>
+            <h3 class="portfolio-item-title">Cashless Payment</h3>
+            <p>Marketing</p>
           </li>
-
           <li class="portfolio-item">
-            <!-- ПОМИЛКА 6: Додано height до зображення -->
             <img
-              src="./images/portfolio-3.jpg"
+              src="./images/MeditationApp.jpg"
               alt="Meditation App"
               width="360"
               height="300"
             />
-            <h3 class="portfolio-subtitle card-subtitle">Meditation App</h3>
-            <p class="portfolio-text card-text">App</p>
+            <h3 class="portfolio-item-title">Meditation App</h3>
+            <p>App</p>
           </li>
-        </ul>
-
-        <ul class="portfolio-list">
           <li class="portfolio-item">
-            <!-- ПОМИЛКА 6: Додано height до зображення -->
             <img
-              src="./images/portfolio-4.jpg"
+              src="./images/TaxiService.jpg"
               alt="Taxi Service"
               width="360"
               height="300"
             />
-            <h3 class="portfolio-subtitle card-subtitle">Taxi Service</h3>
-            <p class="portfolio-text card-text">Marketing</p>
+            <h3 class="portfolio-item-title">Taxi Service</h3>
+            <p>Marketing</p>
           </li>
-
           <li class="portfolio-item">
-            <!-- ПОМИЛКА 6: Додано height до зображення -->
             <img
-              src="./images/portfolio-5.jpg"
+              src="./images/ScreenIllustrations.jpg"
               alt="Screen Illustrations"
               width="360"
               height="300"
             />
-            <h3 class="portfolio-subtitle card-subtitle">
-              Screen Illustrations
-            </h3>
-            <p class="portfolio-text card-text">Design</p>
+            <h3 class="portfolio-item-title">Screen Illustrations</h3>
+            <p>Design</p>
           </li>
-
           <li class="portfolio-item">
-            <!-- ПОМИЛКА 6: Додано height до зображення -->
             <img
-              src="./images/portfolio-6.jpg"
+              src="./images/OnlineCourses.jpg"
               alt="Online Courses"
               width="360"
               height="300"
             />
-            <h3 class="portfolio-subtitle card-subtitle">Online Courses</h3>
-            <p class="portfolio-text card-text">Marketing</p>
+            <h3 class="portfolio-item-title">Online Courses</h3>
+            <p>Marketing</p>
           </li>
         </ul>
       </section>
+      <!--  -->
     </main>
 
     <footer class="page-footer">
-      <a class="logo footer-logo" href="./index.html"
-        >Web<span class="logo-part">Studio</span></a
+      <a class="logo-footer" href="./index.html"
+        ><span class="footer-accent">Web</span>Studio</a
       >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
