@@ -1,227 +1,152 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #434455;
+  background-color: #fff;
 }
 
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-  padding: 0;
+/*#region Reset*/
+ul,
+ol {
+  list-style-type: none;
 }
 
 a {
   text-decoration: none;
-  outline: none;
-}
-
-ul,
-ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-input,
-textarea,
-button {
-  font: inherit;
+  color: currentColor;
 }
 
 button {
   cursor: pointer;
-  color: currentColor;
-  border: none;
 }
+/*#endregion Reset*/
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-body {
-  /* Typography */
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #fff;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-  font-weight: 400;
-}
-/* HEADER STYLE */
-
-.logo-header {
-  /* Typography */
+/*#region Common*/
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-}
-
-.accent-header {
   color: #4d5ae5;
 }
 
-.nav-link {
-  font-weight: 500;
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
-}
-
-.header-contacts {
-  font-style: normal;
-}
-
-.contacts-link {
-  text-decoration: none;
-  color: #434455;
-}
-
-.contacts-link:hover,
-.contacts-link:focus {
-  color: #404bbf;
-}
-
-/* 
-MAIN SECTION
-SECTION HERO 
-*/
-
-.section-hero {
-  background-color: #2e2f42;
-}
-
-.hero-title {
-  /* Typography */
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #fff;
-}
-
-.order-button {
-  /* Typography */
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  color: #fff;
-  background: #4d5ae5;
-}
-
-.order-button:hover,
-.order-button:focus {
-  background-color: #404bbf;
-}
-/* 
-SECTION FEATURES 
-*/
-.section-title {
-  letter-spacing: 0.02em;
-  color: #fff;
-}
-
-.features-title {
-  /* Typography */
+.card-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-/*
-SECTION TEAM
-*/
-.section-team {
-  background: #f4f4fd;
+
+.card-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*#endregion Common*/
+
+/*#region Header*/
+.header-logo .logo-part {
+  color: #2e2f42;
 }
 
-.team-title {
-  /* Typography */
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
+.nav-link {
+  font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
   color: #2e2f42;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+/*#endregion Header*/
+
+/*#region Hero*/
+.section-hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+/*#endregion Hero*/
+
+/*#region Benefits*/
+
+/*#endregion Benefits*/
+
+/*#region Team*/
+.section-team {
+  background-color: #f4f4fd;
 }
 
 .team-item {
   background-color: #fff;
 }
 
-.team-specialist {
-  /* Typography */
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+.team-subtitle,
+.team-text {
   text-align: center;
-  color: #2e2f42;
 }
+/*#endregion Team*/
 
-.team-job-title {
-  text-align: center;
-}
-/* 
-PORTFOLIO SECTION 
-*/
-.portfolio-title {
-  /* Typography */
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-  color: #2e2f42;
-}
+/*#region Portfolio*/
+/*#endregion Portfolio*/
 
-.portfolio-item-title {
-  /* Typography */
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-/* 
-PAGE FOOTER 
-*/
+/*#region Footer*/
 .page-footer {
   background-color: #2e2f42;
 }
 
-.logo-footer {
-  /* Typography */
-  font-weight: 700;
-  font-size: 18px;
-  font-family: 'Raleway', sans-serif;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.footer-logo .logo-part {
   color: #f4f4fd;
-}
-
-.footer-accent {
-  color: #4d5ae5;
 }
 
 .footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+/*#endregion Footer*/
