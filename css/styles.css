@@ -1,155 +1,109 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  color: #434455;
-  background-color: #fff;
+body{
+    font-family: Roboto, sans-serif;
+    background: #FFFFFF;
+    color: #434455;
 }
-
-/*#region Reset*/
-
-ul,
-ol {
-  list-style-type: none;
+ul, ol{
+    list-style-type: none;
 }
-
-a {
-  text-decoration: none;
-  color: currentColor;
+a{
+    text-decoration: none;
+    font-style: normal;
+    color: #2E2F42;
 }
-
-button {
-  cursor: pointer;
+h2{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
 }
-
-/*#endregion Reset*/
-
-/*#region Common*/
-
-.logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+h3{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
 }
-
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: #2e2f42;
+p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
-
-.card-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+.logo>span{
+    color: #4D5AE5;
 }
-
-.card-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.logo{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
 }
-
-/*#endregion Common*/
-
-/*#region Header*/
-
-.header-logo .logo-part {
-  color: #2e2f42;
+.nav{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
-
-.nav-link {
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+.nav a:hover,
+.nav a:focus{
+    color: #404BBF;
 }
-
-.contacts {
-  font-style: normal;
+.address{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
-
-.contacts-link {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.address a:hover,
+.address a:focus{
+    color: #404BBF;
 }
-
-.nav-link:hover,
-.nav-link:focus,
-.contacts-link:hover,
-.contacts-link:focus {
-  color: #404bbf;
+.hero{
+    background-color: #2E2F42;
 }
-
-/*#endregion Header*/
-
-/*#region Hero*/
-
-.section-hero {
-  background-color: #2e2f42;
+.hero h1{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07143;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
 }
-
-.hero-title {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
+.hero button{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color:#4D5AE5;
+    cursor: pointer;
+    font-weight: 500;
+     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+     color: #FFFFFF;
 }
-
-.hero-btn {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background-color: #4d5ae5;
+.hero button:hover,
+.hero button:focus{
+    background-color:#404BBF;
 }
-
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: #404bbf;
+#team h3,#team p{
+    text-align: center;
+} 
+#team{
+    background-color: #F4F4FD;
 }
-
-/*#endregion Hero*/
-
-/*#region Team*/
-
-.section-team {
-  background-color: #f4f4fd;
+#team li{
+    background-color: #FFFFFF;
 }
-
-.team-item {
-  background-color: #fff;
+.footer{
+    background-color: #2E2F42;
+    color: #F4F4FD;
 }
-
-.team-subtitle,
-.team-text {
-  text-align: center;
+.footer .logo{
+    color: #F4F4FD;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;    
 }
-
-/*#endregion Team*/
-
-/*#region Footer*/
-
-.page-footer {
-  background-color: #2e2f42;
-}
-.footer-logo .logo-part {
-  color: #f4f4fd;
-}
-.footer-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-
-/*#endregion Footer*/
