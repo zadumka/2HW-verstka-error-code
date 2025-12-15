@@ -1,3 +1,4 @@
+/*Елементам явно не задано letter-spacing, вони успадковують його від body, але є проблема, що em розраховується від поточного розміру шрифта, тобто тут розрахунок йде від розміра шрифта заданого на боді*/
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -5,53 +6,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-a.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  text-transform: uppercase;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-}
-
-a.logo span {
-  color: #4d5ae5;
-}
-
-a {
-  color: #2e2f42;
-  text-decoration-line: none;
-}
-
-.nav-menu li {
-  font-weight: 500;
-}
-
-.nav-menu li a:hover {
-  color: #404bbf;
-}
-
-.nav-menu li a:active,
-.nav-menu li a:focus {
-  color: #404bbf;
-  text-decoration: underline;
-}
-
-li {
-  list-style: none;
-}
-
-.header-address li a {
-  color: #434455;
-  font-style: normal;
-}
-
-.header-address li a:hover,
-.header-address li a:focus {
-  color: #404bbf;
-}
-
 h1 {
   font-weight: 700;
   font-size: 56px;
@@ -59,33 +13,11 @@ h1 {
   text-align: center;
   color: #ffffff;
 }
-
-.solution-section {
-  background-color: #2e2f42;
-}
-
-.order-button {
-  background-color: #4d5ae5;
-  color: #ffffff;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-
-.order-button:hover {
-  background-color: #404bbf;
-}
-
 h3 {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
 }
-
-.our-team {
-  background-color: #f4f4fd;
-}
-
 .our-team h2,
 .our-portfolio h2 {
   font-weight: 700;
@@ -94,31 +26,12 @@ h3 {
   text-align: center;
   color: #2e2f42;
 }
-
 .our-team ul li h3 {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
 }
-
-.our-team ul li p {
-  text-align: center;
-}
-
-.our-team ul li {
-  background-color: #ffffff;
-}
-
 .our-portfolio ul li h3 {
   font-weight: 500;
   font-size: 20px;
-}
-
-.footer {
-  background-color: #2e2f42;
-}
-
-.footer a,
-.footer p {
-  color: #f4f4fd;
 }
