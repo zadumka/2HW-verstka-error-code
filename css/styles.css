@@ -38,7 +38,7 @@ a {
   text-decoration: underline;
 }
 
-ul li {
+li {
   list-style: none;
 }
 
@@ -52,7 +52,7 @@ ul li {
   color: #404bbf;
 }
 
-.main-titel {
+h1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
@@ -76,9 +76,7 @@ ul li {
   background-color: #404bbf;
 }
 
-.our-team h3,
-.our-portfolio h3,
-.our-features h3 {
+h3 {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
@@ -98,6 +96,8 @@ ul li {
 }
 
 .our-team ul li h3 {
+  font-size: 20px;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -107,6 +107,11 @@ ul li {
 
 .our-team ul li {
   background-color: #ffffff;
+}
+
+.our-portfolio ul li h3 {
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .footer {
