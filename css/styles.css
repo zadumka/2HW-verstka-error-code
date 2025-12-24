@@ -1,37 +1,157 @@
-/*Елементам явно не задано letter-spacing, вони успадковують його від body, але є проблема, що em розраховується від поточного розміру шрифта, тобто тут розрахунок йде від розміра шрифта заданого на боді*/
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  color: #434455;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+background-color: #fff;
+color: #434455;
 }
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07143;
-  text-align: center;
-  color: #ffffff;
+
+.header-logo-accent {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
 }
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  color: #2e2f42;
+
+.header-logo {
+color: #2e2f42;
 }
-.our-team h2,
-.our-portfolio h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
-  text-align: center;
-  color: #2e2f42;
+
+.header-nav-link {
+        font-weight: 500;
+        color: #2e2f42;;
 }
-.our-team ul li h3 {
-  font-size: 20px;
-  font-weight: 500;
-  text-align: center;
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+     color: #404bbf;
 }
-.our-portfolio ul li h3 {
-  font-weight: 500;
-  font-size: 20px;
+
+.header-cont-link {
+    font-style: normal;
+    color: #434455;
+}
+
+.header-cont-link:hover,
+.header-cont-link:focus {
+    color: #404bbf;
+}
+
+.solution {
+    background-color: #2e2f42;
+}
+
+.solution-header {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+}
+
+.solution-button {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.solution-button:hover,
+.solution-button:focus {
+    background: #404bbf;
+}
+
+.feature-subtitle {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+}
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.team-item {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        background: #fff;
+}
+
+.team-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.team-text {
+        text-align: center;
+}
+
+.portfolio-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.footer {
+    background: #2e2f42;
+}
+
+.footer-logo-accent {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+
+.footer-logo {
+    color: #f4f4fd;
+}
+
+.footer-text {
+        color: #f4f4fd;
 }
